@@ -6,14 +6,13 @@ Construir una expresión lógica que use TODAS las variables y cuyo resultado se
 True si al menos una de las variables es True.
 """
 
-esta_lloviendo = True
-riego_activado = True
+# esta_lloviendo = True
+# riego_activado = True
 
-# COMPLETAR - INICIO
+# # COMPLETAR - INICIO
+# # COMPLETAR - FIN
 
-# COMPLETAR - FIN
-
-assert piso_mojado
+# assert piso_mojado
 
 
 """
@@ -26,7 +25,7 @@ lado_cuadrado = 5
 area_cuadrado = pow(lado_cuadrado, 2)
 
 # COMPLETAR - INICIO
-
+area_mayor_a_cinco = not (area_cuadrado<=5)
 # COMPLETAR - FIN
 
 assert area_mayor_a_cinco
@@ -41,7 +40,7 @@ numero_1 = 49
 numero_2 = 50
 
 # COMPLETAR - INICIO
-
+resultado= numero_1 % 7 and not (numero_2 % 7)
 # COMPLETAR - FIN
 
 assert resultado
@@ -60,7 +59,6 @@ variable_04 = "90"
 variable_05 = 100
 
 # COMPLETAR - INICIO
-
+resultado=variable_03 or variable_02 or variable_01 or variable_04 or variable_05
 # COMPLETAR - FIN
-
 assert resultado == 80
